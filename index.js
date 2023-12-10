@@ -12,8 +12,7 @@ const server = http.createServer((req, res) => {
       <title>Document</title>
   </head>
   <body>
-  <iframe src="http://localhost/wordpress/wp-admin/admin-ajax.php?action=h5p_embed&id=1" width="845" height="536" frameborder="0" allowfullscreen="allowfullscreen" title="Jugadas Poker"></iframe><script src="http://localhost/wordpress/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
-  </body>
+  <iframe src="https://h5p.org/h5p/embed/1466520" width="1090" height="713" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *" title="Jugadas Poker"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>  </body>
   </html>`;
 
   // Envía la respuesta al cliente
